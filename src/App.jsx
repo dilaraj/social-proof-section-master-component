@@ -1,9 +1,18 @@
 import './App.css'
+import bgPatternMobileTop from './assets/images/bg-pattern-top-mobile.svg'
+import bgPatternMobileBtm from './assets/images/bg-pattern-bottom-mobile.svg'
+
+// Components
+import Hero from './components/Hero/Hero'
 
 export default function App() {
   return (
     <div className="social-proof-section-main">
-      hellooo
+      <div className="background-pattern-top"><img src={bgPatternMobileTop} alt="Background Image" className="background-img-top" /></div>
+      <div className="background-pattern-btm"><img src={bgPatternMobileBtm} alt="Background Image" className="background-img-btm" /></div>
+      <div className="social-proof-content">
+        <Hero />
+      </div>
     </div>
   )
 }

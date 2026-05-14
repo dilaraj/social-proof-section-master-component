@@ -1,0 +1,27 @@
+.social-proof-section-main {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.background-img-top {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background-img-btm {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+.social-proof-content {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+}
