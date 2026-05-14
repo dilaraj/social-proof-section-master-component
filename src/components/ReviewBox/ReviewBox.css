@@ -1,0 +1,41 @@
+.review-box-container {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    padding: 1.75em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.reviewer-info {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    font-weight: 700;
+}
+
+.prof-img {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+
+.reviewer-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    color: hsl(0, 100%, 100%);
+}
+
+.reviewer-name span {
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+
+.review-text {
+    font-weight: 500;
+    color: hsl(0, 100%, 100%);
+    line-height: 20px;
+}

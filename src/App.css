@@ -32,3 +32,10 @@
   flex-direction: column;
   gap: 1em;
 }
+
+.review-boxes-container {
+  padding-top: 2.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
