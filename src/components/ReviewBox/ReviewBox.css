@@ -39,3 +39,9 @@
     color: hsl(0, 100%, 100%);
     line-height: 20px;
 }
+
+@media (min-width: 768px) {
+    .review-box-container {
+        width: 100%;
+    }
+}

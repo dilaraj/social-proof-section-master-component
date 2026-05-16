@@ -9,3 +9,10 @@ body {
   min-height: 100vh;
   font-family: LeagueSpartan;
 }
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+}

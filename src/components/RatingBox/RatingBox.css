@@ -19,3 +19,13 @@
     font-weight: 700;
     color: hsl(300, 43%, 22%);
 }
+
+@media (min-width: 768px) {
+    .rating-box-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 25em;
+        gap: 2em;
+        padding: 1.25em 2em;
+    }
+}
